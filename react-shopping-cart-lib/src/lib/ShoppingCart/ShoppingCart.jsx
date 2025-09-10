@@ -1,7 +1,7 @@
 import React from 'react';
-import { useCart } from '../hooks/useCart';
-import Button from '../components/Button/Button';
-import Card from '../components/Card/Card';
+import { useCart } from '../hooks/useCart.js';
+import Button from '../components/Button/Button.jsx';
+import Card from '../components/Card/Card.jsx';
 import styles from './ShoppingCart.module.css';
 
 export const ShoppingCart = () => {
